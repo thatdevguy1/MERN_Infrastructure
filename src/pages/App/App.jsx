@@ -16,8 +16,6 @@ function App() {
           <NavBar user={user} setUser={setUser} />
           <Routes>
             <Route path="/" element={<h1>ROOT</h1>} />
-            <Route path="/orders/new" element={<NewOrderPage />} />
-            <Route path="/orders" element={<OrderHistoryPage />} />
           </Routes>
         </>
       ) : (
